@@ -5,11 +5,228 @@
     margin: 18px;
 }
 
+.nav{
+    display: flex;
+    background-color: #F5F5F5;
+    justify-content: space-between;
+    border-radius: 18px;
+    align-items:center;
+
+}
+.btn {
+    color: #006A50; 
+      background-color: #fafafa;
+      border: 0.5px solid #006A50;
+      border-radius: 10px;
+      padding:12px ;
+      font-size: 18px; 
+}
+
 .banner{
     display:flex;
     background-color: #C6E4D6;
     border-radius: 18px;
     padding: 120px 160px opx 160px;
+    align-items:center;
+}
+
+.button{
+    color:oldlace;
+    background-color: #006A50;
+    border-style:outset;
+    border-radius: 20px ;
+    font-size: larger;
+    padding: 12px ;
+    display: inline;
+    margin: 10px;
+
+}
+.pillars{
+    display:flex;
     
 }
+.pillar{
+    border-radius: 18px;
+    margin: 5px;
+    background-color: #cad3d1;
+}
+.vision{
+    display: flex;
+    border-radius: 24px;
+    justify-content:center ;
+
+}
+.vision1{
+    background-color: #5490F533;
+    border-radius: 24px;
+    gap: 24px;
+    width: 410.67px;
+    height: 325px;
+}
+
+.vision2{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    gap: 24px;
+    width: 410.67px;
+    height: 325px;
+}
+
+.vision3{
+    background-color: #F7EBCF;
+    border-radius: 24px;
+    gap: 24px;
+    width: 410.67px;
+    height: 325px;
+}
+
+.button1{
+    color:#ffffff;
+    background-color: #5490F5;
+    border-style:outset;
+    border-radius: 20px ;
+    font-size: larger;
+    padding: 12px ;
+    display: inline;
+    margin: 10px;
+}
+
+
+.button2{
+    color:#ffffff;
+    background-color: #09A15C;
+    border-style:outset;
+    border-radius: 20px ;
+    font-size: larger;
+    padding: 12px ;
+    display: inline;
+    margin: 10px;
+}
+
+
+.button3{
+    color:#ffffff;
+    background-color: #FFC239;
+    border-style:outset;
+    border-radius: 20px ;
+    font-size: larger;
+    padding: 12px ;
+    display: inline;
+    margin: 10px;
+}
+
+.quote{
+    background-color:#e7f6f0;
+    border-radius: 24px;
+    width:1280px;
+    height: 256px;
     
+}
+
+td{
+    border: 2px solid#000000 ;
+    padding: 20px 130px;
+    
+}
+
+table{
+    border-collapse: collapse;
+    
+}
+
+th{
+    border: 2px solid#000000 ;
+    border-collapse: collapse;
+    background-color: #C6E4D6;
+    padding: 10px;
+}
+
+#Yes{
+    color:#000000;
+    background-color: #C6E4D6;
+    
+    border-radius: 12px ;
+    padding: 12px ;
+    display: inline;
+    margin: 10px;
+}
+.news{
+    display: flex;
+    background-color: #dbe2ed;
+    border-radius: 18px;
+}
+.stl{
+    border-radius: 18px;
+    width: 408px;
+    height:306px;
+}
+.news-middle{
+    display: flex;
+    background-color:#dbe2ed;
+    border-radius: 18px;
+   
+}
+.donate{
+    background-color: #f0f3f4 ;
+    border-radius: 18px;
+    text-align: center;
+    padding: 9px;
+}
+
+
+.value{
+    color: #1c1d1d; 
+      background-color: #fafafa;
+      border: 0.5px solid #1c1d1d ;
+      border-radius: 10px;
+      padding:12px ;
+      font-size: 18px; 
+
+}
+
+.value:hover{
+    background-color: #2d5d39;
+    color: #feffff;
+}
+
+input{
+    background-color: #f4fbf8 ;
+    border-radius: 18px;
+    width: 900px;
+    height: 64px;
+    justify-content: center;
+    text-align: center;
+}
+.Subscribe{
+    background-color: #C6E4D6 ;
+    border-radius: 18px;
+    text-align: center;
+    padding: 9px;
+}
+.mini{
+    display: flex;
+    justify-content:none ;
+    gap:-100px;
+}
+.huu{
+    border-radius: 0px 10px 10px 0px;
+}
+.one-more{
+    color: #ffffff; 
+    background-color: #006A50;
+    border: 0.5px solid #1c1d1d ;
+    border-radius: 18px;
+    padding:12px ;
+    font-size: 24px;
+      
+}
+.one-more:hover{
+    background-color: #d9eaec;
+    color: #000000;
+}
+
+footer{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 24px;
+}
